@@ -17,36 +17,29 @@ export function ProductionProcess() {
         </div>
 
         <div className="relative">
-          {/* Timeline line */}
-          <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 -translate-x-1/2" />
+          {/* Timeline line - visible on all devices */}
+          <div className="absolute left-6 md:left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-fire to-orange-300 rounded-full" />
 
-          <div className="space-y-12">
+          <div className="space-y-10 md:space-y-12">
             {productionProcess.map((step, index) => (
               <motion.div
                 key={step.step}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className={`relative flex items-center ${
-                  index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
-                } gap-8`}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="relative flex gap-6 md:gap-8 pl-12 md:pl-20"
               >
-                {/* Content */}
-                <div className="flex-1" />
-                <div className="relative z-10 flex items-center justify-center">
-                  <div className="w-14 h-14 bg-orange-fire rounded-full flex items-center justify-center text-white font-bold text-xl border-4 border-background">
-                    {step.step}
-                  </div>
+                {/* Step Circle */}
+                <div className="absolute left-0 md:left-3 top-2 w-12 h-12 md:w-14 md:h-14 bg-orange-fire rounded-full flex items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-background shadow-lg z-10">
+                  {step.step}
                 </div>
+
+                {/* Content Card */}
                 <div className="flex-1">
-                  <div
-                    className={`bg-secondary rounded-2xl p-6 border border-gray-200 shadow-sm ${
-                      index % 2 === 0 ? "lg:mr-12" : "lg:ml-12"
-                    }`}
-                  >
-                    <h3 className="font-heading text-xl font-bold text-blue-primary mb-2">{step.title}</h3>
-                    <p className="text-gray-500">{step.description}</p>
+                  <div className="bg-gradient-to-br from-secondary to-white rounded-2xl p-5 md:p-8 border border-gray-200 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 className="font-heading text-xl md:text-2xl font-bold text-blue-primary mb-3">{step.title}</h3>
+                    <p className="text-gray-600 text-base md:text-lg leading-relaxed">{step.description}</p>
                   </div>
                 </div>
               </motion.div>
