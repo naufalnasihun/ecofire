@@ -10,8 +10,7 @@ export const galleryImages = [
   "/5kg.jpeg",
   "/11.jpeg",
   "/22.jpeg",
-  "55.jpeg",
-  "1.png",
-  "2.png"
+  "/55.jpeg",
+  "/1.png"
 ];
 
