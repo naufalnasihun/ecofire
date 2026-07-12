@@ -33,8 +33,8 @@ export function Navbar() {
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-lg py-2 md:py-3"
-          : "bg-transparent py-4 md:py-5"
+          ? "bg-background/98 backdrop-blur-md shadow-lg py-2 md:py-3"
+          : "bg-transparent py-3 md:py-5"
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
@@ -43,7 +43,7 @@ export function Navbar() {
           <img
             src="/logo1.jpg"
             alt="EcoFire Logo"
-            className="h-9 md:h-12 w-auto rounded-lg"
+            className="h-10 md:h-14 w-auto rounded-xl shadow-sm"
           />
         </a>
 
@@ -53,7 +53,7 @@ export function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-gray-500 hover:text-orange-fire transition-colors duration-300 font-medium text-xs md:text-sm lg:text-base"
+              className="text-gray-600 hover:text-orange-fire transition-colors duration-300 font-medium text-xs md:text-sm lg:text-base"
             >
               {link.name}
             </a>
@@ -62,7 +62,7 @@ export function Navbar() {
             href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20arang%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-3 md:px-4 lg:px-6 py-1.5 md:py-2 bg-orange-fire text-white rounded-full font-semibold hover:bg-orange-fire/90 transition-all duration-300 hover:shadow-lg hover:shadow-orange-fire/30 text-xs md:text-sm lg:text-base whitespace-nowrap"
+            className="px-3 md:px-4 lg:px-6 py-1.5 md:py-2 bg-orange-fire text-white rounded-full font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-300 text-xs md:text-sm lg:text-base whitespace-nowrap"
           >
             Permintaan Harga
           </a>
@@ -70,10 +70,10 @@ export function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-blue-primary bg-white/20 backdrop-blur-sm p-2 rounded-full"
+          className="md:hidden text-blue-primary bg-white/30 backdrop-blur-sm p-3 rounded-full shadow-md hover:bg-white/50 transition-all"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
@@ -81,17 +81,17 @@ export function Navbar() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -10 }}
+            initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            className="md:hidden bg-background/98 backdrop-blur-lg border-t border-gray-200"
+            exit={{ opacity: 0, y: -20 }}
+            className="md:hidden bg-background border-b border-gray-200 shadow-lg"
           >
-            <div className="container mx-auto px-4 py-5 flex flex-col gap-3">
+            <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-gray-600 hover:text-orange-fire transition-colors duration-300 py-2 text-base border-b border-gray-100 last:border-0"
+                  className="text-gray-700 hover:text-orange-fire transition-colors duration-300 py-3 text-lg font-medium border-b border-gray-100 last:border-0"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.name}
@@ -101,7 +101,7 @@ export function Navbar() {
                 href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20arang%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-2 px-6 py-3 bg-orange-fire text-white rounded-full font-semibold text-center hover:bg-orange-fire/90 transition-all duration-300 shadow-md"
+                className="mt-3 px-6 py-4 bg-gradient-to-r from-orange-fire to-orange-600 text-white rounded-full font-semibold text-center hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-xl hover:shadow-orange-300"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Permintaan Harga
