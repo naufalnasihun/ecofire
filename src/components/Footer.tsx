@@ -28,8 +28,8 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo.jpeg" alt="EcoFire Logo" className="h-12 w-auto" />
-            </div>
+            <img src="/logo1.jpg" alt="EcoFire Logo" className="h-12 w-auto" />
+          </div>
             <p className="text-gray-400 mb-6">
               Produsen terkemuka briket arang premium untuk ekspor global.
             </p>

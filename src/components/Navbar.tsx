@@ -41,7 +41,7 @@ export function Navbar() {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
           <img
-            src="/logo.jpeg"
+            src="/logo1.jpg"
             alt="EcoFire Logo"
             className="h-9 md:h-12 w-auto rounded-lg"
           />
