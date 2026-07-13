@@ -27,7 +27,7 @@ export const products: Product[] = [
     packing: "500gr/bungkus",
     gallery: [
       "/kotak.jpg",
-      "11.jpeg"
+      "/11.jpeg"
     ]
   },
   {
@@ -42,8 +42,8 @@ export const products: Product[] = [
     price: "Rp 24.000",
     packing: "1kg/bungkus",
     gallery: [
-      "5.jpeg",
-      "22.jpeg"
+      "/5.jpeg",
+      "/22.jpeg"
     ]
   },
   {
@@ -59,7 +59,7 @@ export const products: Product[] = [
     packing: "5kg/karton",
     gallery: [
       "/122.jpg",
-      "55.jpeg"
+      "/55.jpeg"
     ]
   },
 ];

@@ -59,7 +59,7 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20arang%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
+            href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 md:px-4 lg:px-6 py-1.5 md:py-2 bg-orange-fire text-white rounded-full font-semibold hover:bg-orange-600 transition-all duration-300 hover:shadow-lg hover:shadow-orange-300 text-xs md:text-sm lg:text-base whitespace-nowrap"
@@ -98,7 +98,7 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20arang%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
+                href="https://wa.me/6285733535057?text=Halo%20EcoFire,%20saya%20tertarik%20dengan%20produk%20briket%20Anda.%20Bisa%20diberikan%20informasi%20harga%20dan%20detail%20lebih%20lanjut?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 px-6 py-4 bg-gradient-to-r from-orange-fire to-orange-600 text-white rounded-full font-semibold text-center hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-xl hover:shadow-orange-300"

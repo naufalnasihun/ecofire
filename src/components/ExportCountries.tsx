@@ -13,7 +13,7 @@ export function ExportCountries() {
             Mengekspor ke <span className="text-orange-fire">Negara</span> di Seluruh Dunia
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            Briket arang premium kami dipercaya oleh bisnis di seluruh dunia
+            Briket premium kami dipercaya oleh bisnis di seluruh dunia
           </p>
         </div>
 

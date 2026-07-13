@@ -25,12 +25,12 @@ export function Hero() {
               Ecofire Briket 2024
             </span>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-primary mb-6 leading-tight">
-              Ecofire Briket Arang
+              Cube Energy by Ecofire: 
               <br />
-              <span className="text-orange-fire"> Hemat, Tahan Lama</span>  & Ramah Lingkungan
+              <span className="text-orange-fire"> Briket Eceng Gondok </span>  Biomassa Premium
             </h1>
             <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-EcoFire menghadirkan arang briket tempurung kelapa berkualitas premium dengan daya bakar tahan lama, kadar abu rendah, panas stabil, dan ramah lingkungan. Diproduksi dengan standar ekspor untuk memenuhi kebutuhan pasar internasional.            </p>
+EcoFire menghadirkan briket eceng gondok dengan campuran limbah kayu dan tepung singkong berkualitas premium dengan daya bakar tahan lama, kadar abu rendah, panas stabil, dan ramah lingkungan. Diproduksi dengan standar ekspor untuk memenuhi kebutuhan pasar internasional.            </p>
           </motion.div>
 
           <motion.div

@@ -14,7 +14,7 @@ export const testimonials: Testimonial[] = [
     name: "Setiawan",
     country: "Ina",
     rating: 5,
-    comment: "Briket arang berkualitas luar biasa! Waktu pembakaran konsisten dan abu sedikit. Sempurna untuk bisnis shisha kami.",
+    comment: "Briket berkualitas luar biasa! Waktu pembakaran konsisten dan abu sedikit. Sempurna untuk bisnis shisha kami.",
     avatar: "https://picsum.photos/seed/avatar1/200/200"
   },
   {

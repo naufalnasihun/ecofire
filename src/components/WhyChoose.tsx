@@ -45,7 +45,7 @@ export function WhyChoose() {
             Keunggulan <span className="text-orange-fire">EcoFire</span>
           </h2>
           <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-            Temukan alasan bisnis di seluruh dunia mempercayai EcoFire untuk kebutuhan briket arang premium mereka
+            Temukan alasan bisnis di seluruh dunia mempercayai EcoFire untuk kebutuhan briket premium mereka
           </p>
         </div>
 

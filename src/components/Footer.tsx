@@ -31,7 +31,7 @@ export function Footer() {
             <img src="/logo1.jpg" alt="EcoFire Logo" className="h-12 w-auto" />
           </div>
             <p className="text-gray-400 mb-6">
-              Produsen terkemuka briket arang premium untuk ekspor global.
+              Produsen terkemuka briket premium untuk ekspor global.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((link, idx) => (

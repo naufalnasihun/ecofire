@@ -20,10 +20,10 @@ export function Products() {
           <div className="text-center mb-16">
             <span className="text-orange-fire font-semibold mb-3 block">Produk Kami</span>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-blue-primary mb-6">
-              EcoFire Briket <span className="text-orange-fire">Arang</span> Premium
+              EcoFire Briket <span className="text-orange-fire">Eceng Gondok</span> Premium
             </h2>
             <p className="text-gray-500 text-lg max-w-2xl mx-auto">
-              Jelajahi berbagai briket arang eceng gondok berkualitas tinggi untuk setiap kebutuhan
+              Jelajahi berbagai briket eceng gondok berkualitas tinggi untuk setiap kebutuhan
             </p>
           </div>
 
