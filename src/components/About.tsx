@@ -74,7 +74,7 @@ export function About() {
           >
             <span className="text-orange-fire font-semibold mb-3 block">Tentang Kami</span>
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-blue-primary mb-6">
-             Ecofire Briket Arang 
+             Ecofire Briket  
               <span className="text-orange-fire"> Berkualitas Premium </span>
             </h2>
             <p className="text-gray-500 text-lg mb-8 leading-relaxed">
